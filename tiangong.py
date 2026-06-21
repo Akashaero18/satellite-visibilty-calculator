@@ -71,5 +71,4 @@ for i, (start,end, max_elev) in enumerate(passes):
     duration_sec = end.durationFrom(start)
     duration_min = duration_sec / 60.0
     print(f"Pass {i+1}: {start} to {end}")
-    print(f"  Duration: {duration_min:.f} mins, Max Elevation: {max_elev:.1f}deg\n")
-print("COOL")
+    print(f"  Duration: {duration_min:.1f} mins, Max Elevation: {max_elev:.1f}deg\n")
